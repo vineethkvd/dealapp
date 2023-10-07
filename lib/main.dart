@@ -1,4 +1,5 @@
 import 'package:dealapp/view/loginhome.dart';
+import 'package:dealapp/view/loginpage.dart';
 import 'package:dealapp/view/registrationpage.dart';
 import 'package:dealapp/view/splashscreen.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +22,7 @@ class _MyAppState extends State<MyApp> {
         '/': (context) => const SplashScreen(),
         '/loginhome': (context) => const LoginHome(),
         '/registration': (context) => const RegistrationPage(),
+        '/loginpage': (context) => const LoginPage(),
       },
     );
   }

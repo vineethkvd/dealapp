@@ -81,7 +81,7 @@ class _LoginHomeState extends State<LoginHome> {
                                 backgroundColor: MaterialStateProperty.all(
                                     const Color(0xFF5529A4)),
                               ),
-                              onPressed: () {},
+                              onPressed: () {Navigator.of(context).pushReplacementNamed('/loginpage');},
                               child: const Text(
                                 "Sign In",
                                 style: TextStyle(fontFamily: 'Poppins-Regular'),
@@ -97,7 +97,7 @@ class _LoginHomeState extends State<LoginHome> {
                                 backgroundColor: MaterialStateProperty.all(
                                     const Color(0xFF5529A4)),
                               ),
-                              onPressed: () {},
+                              onPressed: () { },
                               child: const Text(
                                 "Register",
                                 style: TextStyle(fontFamily: 'Poppins-Regular'),
